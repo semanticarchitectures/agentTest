@@ -1,0 +1,68 @@
+[
+  {
+    "id": "summary_1",
+    "prompt": "What is the main topic of these documents?",
+    "metadata": {
+      "category": "summary",
+      "priority": "high",
+      "expected_response_type": "overview"
+    },
+    "similarity_top_k": 3,
+    "response_mode": "compact"
+  },
+  {
+    "id": "detail_1",
+    "prompt": "What are the key recommendations mentioned in the documents?",
+    "metadata": {
+      "category": "analysis",
+      "priority": "medium",
+      "expected_response_type": "detailed_list"
+    },
+    "similarity_top_k": 5,
+    "response_mode": "tree_summarize"
+  },
+  {
+    "id": "search_1",
+    "prompt": "Are there any mentions of security policies or procedures?",
+    "metadata": {
+      "category": "search",
+      "priority": "low",
+      "expected_response_type": "boolean_with_details"
+    },
+    "similarity_top_k": 7,
+    "response_mode": "compact"
+  },
+  {
+    "id": "technical_1",
+    "prompt": "What technical specifications or requirements are mentioned?",
+    "metadata": {
+      "category": "technical",
+      "priority": "high",
+      "expected_response_type": "specifications"
+    },
+    "similarity_top_k": 4,
+    "response_mode": "compact"
+  },
+  {
+    "id": "process_1",
+    "prompt": "Describe any processes or workflows mentioned in the documents",
+    "metadata": {
+      "category": "process",
+      "priority": "medium",
+      "expected_response_type": "process_description"
+    },
+    "similarity_top_k": 6,
+    "response_mode": "tree_summarize"
+  },
+  {
+    "id": "compliance_1",
+    "prompt": "Are there any compliance requirements or regulatory mentions?",
+    "metadata": {
+      "category": "compliance",
+      "priority": "high",
+      "expected_response_type": "compliance_info"
+    },
+    "similarity_top_k": 5,
+    "response_mode": "compact"
+  }
+]

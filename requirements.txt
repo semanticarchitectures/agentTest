@@ -1,0 +1,8 @@
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-anthropic
+llama-index-vector-stores-faiss
+pypdf
+python-dotenv
+faiss-cpu
+sentence-transformers
