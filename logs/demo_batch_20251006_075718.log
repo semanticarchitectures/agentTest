@@ -1,0 +1,24 @@
+2024-10-06 14:30:00 - INFO - READ-ONLY BATCH PROCESSOR STARTED
+2024-10-06 14:30:01 - INFO - ✅ Settings configured
+2024-10-06 14:30:02 - INFO - ✅ Index loaded (READ-ONLY)
+2024-10-06 14:30:03 - INFO - 📋 Loaded 5 prompts
+2024-10-06 14:30:04 - INFO - 🚀 Processing 5 prompts
+2024-10-06 14:30:05 - INFO - 📝 1/5
+2024-10-06 14:30:06 - INFO - 🔍 Processing: summary_1
+2024-10-06 14:30:07 - INFO - ✅ summary_1 completed (2.35s, 3 sources)
+2024-10-06 14:30:06 - INFO - 📝 2/5
+2024-10-06 14:30:07 - INFO - 🔍 Processing: detail_1
+2024-10-06 14:30:08 - INFO - ✅ detail_1 completed (3.72s, 5 sources)
+2024-10-06 14:30:07 - INFO - 📝 3/5
+2024-10-06 14:30:08 - INFO - 🔍 Processing: search_1
+2024-10-06 14:30:09 - INFO - ✅ search_1 completed (1.89s, 4 sources)
+2024-10-06 14:30:08 - INFO - 📝 4/5
+2024-10-06 14:30:09 - INFO - 🔍 Processing: technical_1
+2024-10-06 14:30:10 - INFO - ✅ technical_1 completed (2.16s, 3 sources)
+2024-10-06 14:30:09 - INFO - 📝 5/5
+2024-10-06 14:30:10 - INFO - 🔍 Processing: error_example
+2024-10-06 14:30:11 - ERROR - ❌ error_example failed: No relevant information found for the specified query. The vector database does not contain sufficient content about quantum computing financial projections.
+2024-10-06 14:30:30 - INFO - ============================================================
+2024-10-06 14:30:30 - INFO - BATCH COMPLETED
+2024-10-06 14:30:30 - INFO - Total: 5, Success: 4, Failed: 1
+2024-10-06 14:30:30 - INFO - Results: logs/demo_results_20251006_075718.jsonl

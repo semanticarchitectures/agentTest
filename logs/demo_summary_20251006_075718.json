@@ -1,0 +1,38 @@
+{
+  "batch_summary": {
+    "total_prompts": 5,
+    "successful": 4,
+    "failed": 1,
+    "success_rate": 0.8,
+    "total_duration_seconds": 11.348,
+    "average_duration_seconds": 2.27,
+    "average_response_length": 669.8,
+    "average_sources_per_query": 3.8
+  },
+  "prompt_categories": {
+    "summary": {
+      "total": 1,
+      "successful": 1
+    },
+    "analysis": {
+      "total": 1,
+      "successful": 1
+    },
+    "search": {
+      "total": 1,
+      "successful": 1
+    },
+    "technical": {
+      "total": 1,
+      "successful": 1
+    },
+    "financial": {
+      "total": 1,
+      "successful": 0
+    }
+  },
+  "errors": [
+    "No relevant information found for the specified query. The vector database does not contain sufficient content about quantum computing financial projections."
+  ],
+  "timestamp": "2025-10-06T07:57:18.751110"
+}
